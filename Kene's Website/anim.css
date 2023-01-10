@@ -1,0 +1,107 @@
+@keyframes cursorAnim {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+@keyframes cursorAnim3{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes loader{
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-1615px);
+    }
+}
+
+@keyframes progressanim{
+    0%{
+        width:0%;
+    }
+
+    66%{
+        width:60%;
+    }
+
+    99%{
+        width:85%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes line{
+    from{
+        width: 0px;
+    }
+     to{
+        width: 10vw;
+     }
+}
+
+@keyframes text-transition{
+    from{
+        transform: translateY(100);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(-100px);
+        opacity: 100;
+    }
+}
+
+@keyframes page-transition{
+    from{
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes k-name {
+    from{
+        transform: translateX(-30vw);
+    }
+    to {
+        transform: translateX(-100vw);
+    }
+    
+}
+
+@keyframes l-name {
+    from{
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(-30vw);
+    }
+    
+}
+
+@keyframes timeline {
+    from{
+        transform: translateX(-100vw);
+    }
+    to{
+        transform: translateX(0vw);
+    }
+}
